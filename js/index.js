@@ -110,11 +110,36 @@ $(".System ._System_item").mouseleave(function(){
 	$(this).find("._System_item_meng").stop().animate({top:"80%"}).children("img").css("display","none").siblings("._System_item_meng_details").css("display","none")
 })
 
-// 首页视频
+// 图1
+$("#img-1").mouseover(function(){
+    $("#img-1").attr("src", "images/index/intro/1-.jpg")
+})
+$("#img-1").mouseout(function(){
+    $("#img-1").attr("src", "images/index/intro/1.jpg")
+})
 
-var video=document.getElementById('videoId');
-video.onclick=function(){
-    this.play();
-    video.controls = "controls";
-}
+// 图2
+$("#img-2").mouseover(function(){
+    $("#img-2").attr("src", "images/index/intro/2-.jpg")
+})
+$("#img-2").mouseout(function(){
+    $("#img-2").attr("src", "images/index/intro/2.jpg")
+})
+
+// 图3
+$("#img-3").mouseover(function(){
+    $("#img-3").attr("src", "images/index/intro/3-.jpg")
+})
+$("#img-3").mouseout(function(){
+    $("#img-3").attr("src", "images/index/intro/3.jpg")
+})
+
+// 图4
+$("#img-4").mouseover(function(){
+    $("#img-4").attr("src", "images/index/intro/4-.jpg")
+})
+$("#img-4").mouseout(function(){
+    $("#img-4").attr("src", "images/index/intro/4.jpg")
+})
+
 				
