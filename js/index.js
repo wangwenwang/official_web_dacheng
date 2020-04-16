@@ -40,7 +40,7 @@ function swipperMove(){
 		idx=-1;
 	}
 	
-	$(".circleContainer li").eq(idx+1).css("background-color","#000").siblings().css("background-color","#fff");
+	$(".circleContainer li").eq(idx+1).css("background-color","#B88C4D").siblings().css("background-color","#fff");
 
 	$('.swipper>ul>li').eq(idx+1).stop().fadeIn(600);
 
@@ -49,7 +49,7 @@ function swipperMove(){
 }
 $(".circleContainer li").mouseenter(function(){
 
-	$(this).css("background-color","#000").siblings().css("background-color","#fff");
+	$(this).css("background-color","#B88C4D").siblings().css("background-color","#fff");
 
 	$('.swipper>ul>li').eq(idx).stop().fadeOut(1000);
 
